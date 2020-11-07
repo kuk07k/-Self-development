@@ -1,0 +1,9 @@
+* commons에서 IP주소랑 DB이름 ID,PW 정확히 기입 !!
+* MainForm에서 lsMdiContainer -> True로 바꾸기 !!
+* controlBox : 위에 축소,확대,나가기 관련
+* DB 저장시 오류 == 디자이너에 변경내용 저장안함
+* Grid뷰에 Allow 다 false
+* AutoSize == none : 내가 셀 목록 크기 지정
+* 다른 DB에 테이블 복사
+SELECT * INTO membertbl from BookRentalshopDB.dbo.membertbl
+SELECT * INTO 새 테이블명 from 원본 DB.dbo.원본 테이블 명
